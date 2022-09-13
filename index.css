@@ -1,0 +1,138 @@
+:root{
+	--navbar_blue: #1C4581;
+	--black-neutrals: #575757;
+}
+
+*{
+	padding: 0;
+    margin: 0;
+}
+
+h1{
+	display: block;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+header{
+    padding: 80px;
+	color: white;
+	height: 28rem;
+	background-image: url(header-image.jpg);
+	background-repeat: no-repeat;
+    background-size: cover;
+	display: flex;
+}
+
+#logo{
+	height: 128px;
+    margin-right: 16px;
+    cursor: pointer;
+}
+
+.background-tint {
+	background-color: rgba(0,0,0,.75);
+	background-blend-mode: multiply;
+}
+
+.header-title{
+	margin: 0;
+	width: 350px;
+	font-size: 40px;
+    font-family: "Freight Text", serif;
+}
+
+.header-sub-title{
+	font-size: 15px;
+    font-weight: medium;
+    text-transform: uppercase;
+}
+
+.left{
+	margin-left: 10%;
+}
+
+
+.right{
+	width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+    position: relative;
+}
+
+.right iframe{
+	position: absolute;
+	right: 10%;
+    top: 0;
+    width: 60%;
+    height: 50%;
+
+	border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+}
+
+body{
+    font-family: "Atlas Grotesk", sans-serif;
+}
+
+.main{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 0 17.5%;
+}
+
+.cluster{
+	margin-top: 60px;
+}
+
+.cluster-title{
+	margin: 25px 0;
+	color: #323232;
+	text-align: center;
+}
+
+.line{
+	margin: 10px 0;
+	width: 50px;
+	border-bottom: 2px solid var(--black-neutrals);
+}
+
+.staff-grid{
+	display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 16px;
+    row-gap: 20px;
+}
+
+.staff-block{
+	padding: 20px;
+    box-shadow: 0 4px 4px rgb(0 0 0 / 15%);
+    display: flex;
+    flex-direction: column;
+}
+
+.staff-button-wrapper{
+    cursor: pointer;
+	align-self: end;
+    background-color: #f5f5f4;
+    padding: 10px 12px;
+}
+
+.staff-button{
+	font-family: "Atlas Grotesk Bold", sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: none;
+}
+
+footer{
+	padding: 80px 5%;
+    font-size: 13px;
+    text-align: center;
+    color: #828282;
+}
